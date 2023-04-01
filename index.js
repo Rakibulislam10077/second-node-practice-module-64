@@ -51,4 +51,4 @@ app.post('/user', (req, res) => {
     user.id = users.length + 1;
     users.push(user);
     res.send(user)
-})
+}) 
